@@ -41,6 +41,6 @@ module.exports = {
             }),
     LANGUAGE: process.env.LANGUAGE || 'EN',
     HEROKU_APP: process.env.HEROKU_APP_NAME || '',
-    isHEROKU: process.env.HEROKU || '',
-    TZ: process.env.TZ || 'Asia/Colombo'
+    isHEROKU: process.env.HEROKU || 'dd9f25c1-e4bc-460d-b96a-4521d73e7bb3',
+    TZ: process.env.TZ || 'Asia/Karachi'
 }
